@@ -1,0 +1,54 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Template for a SPARC file
+%% Author: Vinh Nguyen
+%% Description: This file is for Home work question 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+sorts
+    #people = {peter, zhang}.
+    #location ={room217}.
+    #coursecode ={cs5368, cs3366}.
+    #coursetitle ={intelligentsystem}.
+    
+predicates
+    % course(X,Y) denotes that the title of course code X is Y
+    course(#coursecode,#coursetitle).
+    
+    % location (X,Y) denotes that the location of course code X is Y
+    location(#coursecode, #location).
+    
+    % instructor(X,Y) denotes that person X is the instructor of course code Y
+    instructor(#people,#coursecode).
+    
+    % enroll(X,Y) denotes that person X is enrolled in course code Y
+    enroll(#people,#coursecode).
+    
+    % iSameTilte(X,Y) denotes that course code X has the same title with course code Y
+    iSameTilte(#coursecode,#coursecode).
+    
+    % instructedby(X, Y) denotes that  person X is instructed by person Y. 
+    instructedby(#people,#people).
+    
+rules
+    % the title of course code cs5368 is intelligent system
+    course(cs5368, intelligentsystem).
+    % the title of course code cs3366 is intelligent system
+    course(cs3366, intelligentsystem).
+    
+    % the location of course code cs5368 is in room217
+    location(cs5368, room217).
+     % the location of course code cs3366 is in room217
+    location(cs3366, room217).
+    
+    % zhang is the instructor of course code 5368
+    instructor(zhang,cs5368).
+     % zhang is the instructor of course code cs3366
+    instructor(zhang,cs3366).
+    
+    % peter is enrolled in course code cs3366
+    enroll(peter, cs3366).
+     % for all X, Y. course code X has the same title with course code Y IF there exists a course title Z such that the title of course code X is Z and the title of course code Y is Z. X !=Y.
+    iSameTilte(X,Y):- course(X,Z), course(Y,Z), X!=Y.
+    
+    % for all X, Y. a person X is instructed by an instructor Y IF there exists a course code Z such that person X is enrolled in course code Z and Y is the instructor of course code Z. 
+    instructedby(X,Y):- enroll(X,Z), instructor(Y, Z).

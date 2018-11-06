@@ -1,0 +1,296 @@
+﻿{
+  "publications": [
+    {
+      "pub_type": "Workshop Paper",
+      "pub_day": 12,
+      "pub_month": 11,
+      "pub_year": 2018,
+      "pub_title": "HPCViz: Visualizing and Monitoring Health Status of High Performance Computing Systems",
+      "pub_author": "Tommy Dang, <strong>Vinh T. Nguyen</strong>, Vung Pham, Ghazanfar Ali, Yong Chen.",
+      "pub_img": "images/portfolio/DAAC2018.png",
+      "pub_doi": "",
+      "pub_icons": [
+        {
+          "icon_code": "fa fa-github",
+          "icon_url": "https://github.com/iDataVisualizationLab/HPCC",
+          "icon_alt": "Github"
+        },
+        {
+          "icon_code": "fa fa-youtube",
+          "icon_url": "https://idatavisualizationlab.github.io/HPCC/viz/",
+          "icon_alt": "YouTube"
+        },
+        {
+          "icon_code": "fa fa-globe",
+          "icon_url": "https://idatavisualizationlab.github.io/HPCC/vizOverheatSep26/index.html",
+          "icon_alt": "Demo"
+        }
+      ],
+      "pub_proceeding": "The 2nd International Industry/University Workshop on Data-center Automation, Analytics, and Control",
+      "pub_venue": "Dallas, TX — November 11 - 16, 2018."
+    },
+    {
+      "pub_type": "Workshop Paper",
+      "pub_day": 11,
+      "pub_month": 12,
+      "pub_year": 2018,
+      "pub_title": "VRescuer: A Virtual Reality Application for Disaster Response Training",
+      "pub_author": "<strong>Vinh T. Nguyen</strong>, Tommy Dang.",
+      "pub_img": "images/portfolio/RescuerVR.png",
+      "pub_doi": "",
+      "pub_icons": [
+        {
+          "icon_code": "ai ai-ieee",
+          "icon_url": "#",
+          "icon_alt": "IEEE Xplore Digital Library"
+        },
+		  {
+          "icon_code": "fa fa-globe",
+          "icon_url": "http://www.artur-lugmayr.com/activities/current-activities/daivar2018/",
+          "icon_alt": "Call for Paper"
+        }
+      ],
+      "pub_proceeding": "IEEE DAIVAR 2018 – 2nd Workshop on Interface and Experience Design with AI for VR/AR",
+      "pub_venue": "Taichung, Taiwan — December 10 - 12, 2018."
+    },
+    {
+      "pub_type": "Conference Paper",
+      "pub_day": 11,
+      "pub_month": 12,
+      "pub_year": 2018,
+      "pub_title": "Creating Virtual Reality and Augmented Reality development in classroom: Is it a hype?",
+      "pub_author": "<strong>Vinh T. Nguyen</strong>, Tommy Dang.",
+      "pub_img": "images/portfolio/AIVR2018_16.png",
+      "pub_doi": "",
+      "pub_icons": [
+        {
+          "icon_code": "ai ai-ieee",
+          "icon_url": "#",
+          "icon_alt": "IEEE Xplore Digital Library"
+        },
+		  {
+          "icon_code": "fa fa-globe",
+          "icon_url": "http://aivr.asia.edu.tw/2018/",
+          "icon_alt": "Call for Paper"
+        }
+      ],
+      "pub_proceeding": "IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR 2018)",
+      "pub_venue": "Taichung, Taiwan — December 10 - 12, 2018."
+    },
+    {
+      "pub_type": "Conference Paper",
+      "pub_day": 11,
+      "pub_month": 12,
+      "pub_year": 2018,
+      "pub_title": "Web-based Virtual Reality development in classroom: From learner's perspectives",
+      "pub_author": "<strong>Vinh T. Nguyen</strong>, Rebecca Hite, Tommy Dang.",
+      "pub_img": "images/portfolio/AIVR2018.png",
+      "pub_doi": "",
+      "pub_icons": [
+        {
+          "icon_code": "ai ai-ieee",
+          "icon_url": "#",
+          "icon_alt": "IEEE Xplore Digital Library"
+        }
+      ],
+      "pub_proceeding": "IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR 2018)",
+      "pub_venue": "Taichung, Taiwan — December 10 - 12, 2018."
+    },
+    {
+      "pub_type": "Demonstration",
+      "pub_day": 16,
+      "pub_month": 7,
+      "pub_year": 2018,
+      "pub_title": "MalViz: An Interactive Visualization Tool for Tracing Malware",
+      "pub_author": "<strong>Vinh T. Nguyen</strong>, Akbar Siami Namin, Tommy Dang.",
+      "pub_img": "images/portfolio/ISSTA2018.png",
+      "pub_doi": "10.1145/3213846.3229501",
+      "pub_icons": [
+        {
+          "icon_code": "ai ai-acm",
+          "icon_url": "https://dl.acm.org/citation.cfm?id=3229501",
+          "icon_alt": "ACM Digital library"
+        },
+        {
+          "icon_code": "fa fa-youtube",
+          "icon_url": "https://www.youtube.com/watch?v=4NUMYGhPb4I&feature=youtu.be",
+          "icon_alt": "YouTube"
+        },
+        {
+          "icon_code": "fa fa-github",
+          "icon_url": "https://github.com/Alex-Nguyen/Malviz",
+          "icon_alt": "Github"
+        },
+        {
+          "icon_code": "fa fa-globe",
+          "icon_url": "https://alex-nguyen.github.io/MalViz",
+          "icon_alt": "Demo"
+        }
+      ],
+      "pub_proceeding": "ISSTA 2018 Proceedings of the 27th ACM SIGSOFT International Symposium on Software Testing and Analysis",
+      "pub_venue": "Amsterdam, Netherlands — July 16 - 21, 2018."
+    },
+    {
+      "pub_type": "Workshop",
+      "pub_day": 4,
+      "pub_month": 6,
+      "pub_year": 2018,
+      "pub_title": "Predict Saturated Thickness using TensorBoard Visualization",
+      "pub_author": "<strong>Vinh T. Nguyen</strong>, Tommy Dang.",
+      "pub_img": "images/portfolio/TensorFlowGraph.png",
+      "pub_doi": "10.2312/envirvis.20181135",
+      "pub_icons": [
+        {
+          "icon_code": "ai ai-doi",
+          "icon_url": "https://diglib.eg.org/handle/10.2312/envirvis20181135",
+          "icon_alt": "Eurographic"
+        },
+        {
+          "icon_code": "fa fa-youtube",
+          "icon_url": "https://youtu.be/xBt-i8wsJZg",
+          "icon_alt": "YouTube"
+        },
+        {
+          "icon_code": "fa fa-github",
+          "icon_url": "https://github.com/Alex-Nguyen/SaturatedThicknessTensorBoard",
+          "icon_alt": "Github"
+        }
+      ],
+      "pub_proceeding": "ENVIRVIS 2018 Proceedings of the Visualization in Environmental Sciences 2018.",
+      "pub_venue": "Brno, Czech Republic — June 4 - 8, 2018."
+    },
+    {
+      "pub_type": "Workshop",
+      "pub_day": 4,
+      "pub_month": 6,
+      "pub_year": 2018,
+      "pub_title": "ComModeler: Topic Modeling Using Community Detection",
+      "pub_author": "Tommy Dang, <strong>Vinh T. Nguyen</strong>.",
+      "pub_img": "images/portfolio/EuroVA2018.png",
+      "pub_doi": "10.2312/eurova.20181104",
+      "pub_icons": [
+        {
+          "icon_code": "ai ai-doi",
+          "icon_url": "https://diglib.eg.org/handle/10.2312/eurova20181104",
+          "icon_alt": "Eurographic"
+        },
+        {
+          "icon_code": "fa fa-youtube",
+          "icon_url": "https://youtu.be/c28kc2I7BAU",
+          "icon_alt": "YouTube"
+        },
+        {
+          "icon_code": "fa fa-github",
+          "icon_url": "https://dycomdetector.github.io/",
+          "icon_alt": "Github"
+        },
+        {
+          "icon_code": "fa fa-globe",
+          "icon_url": "https://dycomdetector.github.io/demos.html",
+          "icon_alt": "Demo"
+        }
+      ],
+      "pub_proceeding": "EuroVA 2018 Proceedings of the 9th international EuroVis workshop on Visual Analytics.",
+      "pub_venue": "Brno, Czech Republic — June 4 - 8, 2018."
+    },
+    {
+      "pub_type": "Workshop",
+      "pub_day": 9,
+      "pub_month": 10,
+      "pub_year": 2017,
+      "pub_title": "Setting up virtual reality and augmented reality learning environment in Unity",
+      "pub_author": "<strong>Vinh T. Nguyen</strong>, Tommy Dang.",
+      "pub_img": "images/portfolio/Vamre2017.png",
+      "pub_doi": "10.1109/ISMAR-Adjunct.2017.97",
+      "pub_icons": [
+        {
+          "icon_code": "ai ai-ieee",
+          "icon_url": "https://ieeexplore.ieee.org/document/8088512/",
+          "icon_alt": "IEEE Xplore Digital Library"
+        }
+      ],
+      "pub_proceeding": "VAMRE 2017 Proceedings of the Workshop on Virtual, Augmented and Mixed Reality in Education.",
+      "pub_venue": "La Cité, Nantes Events Center in Nantes, France — Oct 9, 2017."
+    },
+    {
+      "pub_type": "Workshop",
+      "pub_day": 1,
+      "pub_month": 10,
+      "pub_year": 2017,
+      "pub_title": "CancerLinker: Explorations of Cancer Study Network",
+      "pub_author": "<strong>Vinh T. Nguyen</strong>, Md Yasin Kabir, Tommy Dang",
+      "pub_img": "images/portfolio/VDS2017.png",
+      "pub_doi": "arXiv:1710.06062",
+      "pub_icons": [
+        {
+          "icon_code": "ai ai-arxiv",
+          "icon_url": "https://arxiv.org/abs/1710.06062",
+          "icon_alt": "arXiv"
+        }
+      ],
+      "pub_proceeding": "VDS 2017 Proceedings of the third Symposium on Visualization in Data Science.",
+      "pub_venue": "Arizona, USA — Oct 1, 2017."
+    },
+    {
+      "pub_type": "Workshop",
+      "pub_day": 14,
+      "pub_month": 8,
+      "pub_year": 2017,
+      "pub_title": "DycomDetector: Discover topics using automatic community detections in dynamic networks",
+      "pub_author": "Tommy Dang, <strong>Vinh T. Nguyen</strong>, Md. Yasin Kabir",
+      "pub_img": "images/portfolio/KDD2017.png",
+      "pub_doi": "arXiv:1710.06062",
+      "pub_icons": [
+        {
+          "icon_code": "fa fa-file-pdf-o",
+          "icon_url": "http://poloclub.gatech.edu/idea2017/papers/p19-dang.pdf",
+          "icon_alt": "KDD 2017"
+        }
+      ],
+      "pub_proceeding": "KDD 2017 Proceedings of the Workshop on Interactive Data Exploration and Analytics (IDEA).",
+      "pub_venue": "Halifax, Nova Scotia, Canada — Aug 14, 2017."
+    }
+  ],
+  "reviewer": [
+    {
+      "conf_year_reviewed": 2018,
+      "conf_short": "ICMI 2018",
+      "conf_long": "The 20th ACM International Conference on Multimodal Interaction",
+      "conf_date": "16-20th October, 2018",
+      "conf_venue": "Boulder, Colorado",
+      "conf_papers": 1
+    },
+    {
+      "conf_year_reviewed": 2018,
+      "conf_short": "VizSec 2018",
+      "conf_long": "The 15th IEEE Symposium on Visualization for Cyber Security",
+      "conf_date": "22th October, 2018",
+      "conf_venue": "Berlin, Germany",
+      "conf_papers": 2
+    },
+    {
+      "conf_year_reviewed": 2018,
+      "conf_short": "Nordchi 2018",
+      "conf_long": "The 10th NordiCHI Conference",
+      "conf_date": "1-3rd October, 2018",
+      "conf_venue": "Oslo, Norway",
+      "conf_papers": 1
+    },
+    {
+      "conf_year_reviewed": 2018,
+      "conf_short": "ISMAR 2018",
+      "conf_long": "The 17th IEEE International Symposium on Mixed and Augmented Reality",
+      "conf_date": "16-20th October, 2018",
+      "conf_venue": "Munich, Germany",
+      "conf_papers": 3
+    },
+    {
+      "conf_year_reviewed": 2018,
+      "conf_short": "PacificVis 2018",
+      "conf_long": "The 11th IEEE Pacific Visualization Symposium",
+      "conf_date": "10-13 April, 2018",
+      "conf_venue": "Kobe, Japan",
+      "conf_papers": 1
+    }
+  ]
+}
