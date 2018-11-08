@@ -53,6 +53,30 @@
       "pub_proceeding": "IEEE DAIVAR 2018 – 2nd Workshop on Interface and Experience Design with AI for VR/AR",
       "pub_venue": "Taichung, Taiwan — December 10 - 12, 2018."
     },
+	  {
+      "pub_type": "Demonstration",
+      "pub_day": 11,
+      "pub_month": 12,
+      "pub_year": 2018,
+      "pub_title": "A Study of VR/AR Learning through Self-Discovery",
+      "pub_author": "<strong>Vinh T. Nguyen</strong>, Tommy Dang.",
+      "pub_img": "images/portfolio/IEEEAIVR.png",
+      "pub_doi": "",
+      "pub_icons": [
+        {
+          "icon_code": "ai ai-ieee",
+          "icon_url": "#",
+          "icon_alt": "IEEE Xplore Digital Library"
+        },
+		  {
+          "icon_code": "fa fa-globe",
+          "icon_url": "http://aivr.asia.edu.tw/2018/",
+          "icon_alt": "Call for Paper"
+        }
+      ],
+      "pub_proceeding": "IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR 2018)",
+      "pub_venue": "Taichung, Taiwan — December 10 - 12, 2018."
+    },
     {
       "pub_type": "Conference Paper",
       "pub_day": 11,
