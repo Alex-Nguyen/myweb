@@ -44,6 +44,11 @@
           "icon_url": "#",
           "icon_alt": "IEEE Xplore Digital Library"
         },
+	      {
+          "icon_code": "fa fa-youtube",
+          "icon_url": "https://youtu.be/UdZD39-wGvQ",
+          "icon_alt": "YouTube"
+        },
 		  {
           "icon_code": "fa fa-globe",
           "icon_url": "http://www.artur-lugmayr.com/activities/current-activities/daivar2018/",
