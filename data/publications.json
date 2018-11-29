@@ -1,6 +1,7 @@
 ﻿{
-	  "publications": [
-    {
+
+  "publications": [
+	  {
       "pub_type": "Workshop Paper",
       "pub_day": 10,
       "pub_month": 12,
@@ -24,7 +25,6 @@
       "pub_proceeding": "Big Data Engineering and Analytics in Cyber-Physical Systems (BigEACPS’18)",
       "pub_venue": "Seattle, WA, USA — December 10 - 12, 2018."
     },
-  "publications": [
     {
       "pub_type": "Workshop Paper",
       "pub_day": 12,
