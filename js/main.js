@@ -2,7 +2,7 @@ d3.json("data/publications.json", function (error, pubs) {
     if (error) throw error;
     //Reviewer section
     d3.select("#total_reviews").text(function () {
-        return d3.sum(pubs.reviewer,function (d) {
+        return d3.sum(pubs.reviewer, (d)=> {
             return d.conf_papers;
         });
     });
