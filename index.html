@@ -1,91 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Vinh T. Nguyen | Virtual Reality, Data Visualization</title>
-    <meta name="description"
-          content="virtual reality, augmented reality, mixed reality, data visualization, machine learning, vinh nguyen, vinh t. nguyen, idvl, interactive data visualization, texas tech university, ttu, cs, computer science, raider">
-    <meta name="keywords"
-          content="virtual reality, augmented reality, mixed reality, data visualization, machine learning, Unity3D, A-Frame, WebVR, Blender, Tensorflow, Tensorboard, Saturated Thickness, LSTM, D3js, Threejs, Malviz, Malware visualization, malware tracing, digital forensics, biological network, topic modeling, analysis of algorithms, complex network, vinh nguyen, vinh t. nguyen, idvl, interactive data visualization, texas tech university, ttu, cs, computer science, raider">
-    <meta name="author"
-          content="Vinh Nguyen, Vinh The Nguyen, Vinh T. Nguyen, Texas Tech University, vinh.nguyen[at]ttu.edu">
-    <meta http-equiv="Cache-control" content="public">
+    <meta
+      name="description"
+      content="virtual reality, augmented reality, mixed reality, data visualization, machine learning, vinh nguyen, vinh t. nguyen, idvl, interactive data visualization, texas tech university, ttu, cs, computer science, raider"
+    />
+    <meta
+      name="keywords"
+      content="virtual reality, augmented reality, mixed reality, data visualization, machine learning, Unity3D, A-Frame, WebVR, Blender, Tensorflow, Tensorboard, Saturated Thickness, LSTM, D3js, Threejs, Malviz, Malware visualization, malware tracing, digital forensics, biological network, topic modeling, analysis of algorithms, complex network, vinh nguyen, vinh t. nguyen, idvl, interactive data visualization, texas tech university, ttu, cs, computer science, raider"
+    />
+    <meta
+      name="author"
+      content="Vinh Nguyen, Vinh The Nguyen, Vinh T. Nguyen, Texas Tech University, vinh.nguyen[at]ttu.edu"
+    />
+    <meta http-equiv="Cache-control" content="public" />
 
     <!-- Control the behavior of search engine crawling and indexing.
  The robots meta tag applies to all search engines, while the "googlebot" meta tag is specific to Google. -->
-    <meta name="robots"
-          content="virtual reality, augmented reality, mixed reality, data visualization, machine learning, Unity3D, A-Frame, WebVR, Blender, Tensorflow, Tensorboard, Saturated Thickness, LSTM, D3js, Threejs, Malviz, Malware visualization, malware tracing, digital forensics, biological network, topic modeling, analysis of algorithms, complex network, vinh nguyen, vinh t. nguyen, idvl, interactive data visualization, texas tech university, ttu, cs, computer science, raider"/>
-    <meta name="http-equiv" content="X-Robots-Tag : noindex, follow"/>
-    <meta name="googlebot"
-          content="virtual reality, augmented reality, mixed reality, data visualization, machine learning, Unity3D, A-Frame, WebVR, Blender, Tensorflow, Tensorboard, Saturated Thickness, LSTM, D3js, Threejs, Malviz, Malware visualization, malware tracing, digital forensics, biological network, topic modeling, analysis of algorithms, complex network, vinh nguyen, vinh t. nguyen, idvl, interactive data visualization, texas tech university, ttu, cs, computer science, raider"/>
+    <meta
+      name="robots"
+      content="virtual reality, augmented reality, mixed reality, data visualization, machine learning, Unity3D, A-Frame, WebVR, Blender, Tensorflow, Tensorboard, Saturated Thickness, LSTM, D3js, Threejs, Malviz, Malware visualization, malware tracing, digital forensics, biological network, topic modeling, analysis of algorithms, complex network, vinh nguyen, vinh t. nguyen, idvl, interactive data visualization, texas tech university, ttu, cs, computer science, raider"
+    />
+    <meta name="http-equiv" content="X-Robots-Tag : noindex, follow" />
+    <meta
+      name="googlebot"
+      content="virtual reality, augmented reality, mixed reality, data visualization, machine learning, Unity3D, A-Frame, WebVR, Blender, Tensorflow, Tensorboard, Saturated Thickness, LSTM, D3js, Threejs, Malviz, Malware visualization, malware tracing, digital forensics, biological network, topic modeling, analysis of algorithms, complex network, vinh nguyen, vinh t. nguyen, idvl, interactive data visualization, texas tech university, ttu, cs, computer science, raider"
+    />
     <!-- Used for verifying ownership of a site. -->
-    <meta name="verify"
-          content="virtual reality, augmented reality, mixed reality, data visualization, machine learning, Unity3D, A-Frame, WebVR, Blender, Tensorflow, Tensorboard, Saturated Thickness, LSTM, D3js, Threejs, Malviz, Malware visualization, malware tracing, digital forensics, biological network, topic modeling, analysis of algorithms, complex network, vinh nguyen, vinh t. nguyen, idvl, interactive data visualization, texas tech university, ttu, cs, computer science, raider"/>
+    <meta
+      name="verify"
+      content="virtual reality, augmented reality, mixed reality, data visualization, machine learning, Unity3D, A-Frame, WebVR, Blender, Tensorflow, Tensorboard, Saturated Thickness, LSTM, D3js, Threejs, Malviz, Malware visualization, malware tracing, digital forensics, biological network, topic modeling, analysis of algorithms, complex network, vinh nguyen, vinh t. nguyen, idvl, interactive data visualization, texas tech university, ttu, cs, computer science, raider"
+    />
 
     <!-- Open Graph Meta Tags -->
     <!-- Set the canonical URL for the page you are sharing. -->
-    <meta property="og:url" content="http://myweb.ttu.edu/vinhtngu/">
+    <meta property="og:url" content="http://myweb.ttu.edu/vinhtngu/" />
     <!-- The title to accompany the URL. -->
-    <meta property="og:title"
-          content="Vinh T. Nguyen | Virtual Reality, Augmented Reality, Mixed Reality, Data Visualization"/>
+    <meta
+      property="og:title"
+      content="Vinh T. Nguyen | Virtual Reality, Augmented Reality, Mixed Reality, Data Visualization"
+    />
     <!-- Provides Facebook the name that you would like your website to be recognized by. -->
-    <meta property="og:site_name" content="http://myweb.ttu.edu/vinhtngu/">
+    <meta property="og:site_name" content="http://myweb.ttu.edu/vinhtngu/" />
     <!-- Provides Facebook the type of website that you would like your website to be categorized by. -->
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="website" />
     <!-- Defines the language, American English is the default. -->
-    <meta property="og:locale" content="en-US">
+    <meta property="og:locale" content="en-US" />
     <!-- Directs Facebook to use the specified image when the page is shared. -->
-    <meta property="og:image" content="http://myweb.ttu.edu/vinhtngu/images/vinh_profile.jpg">
+    <meta
+      property="og:image"
+      content="http://myweb.ttu.edu/vinhtngu/images/vinh_profile.jpg"
+    />
     <!-- Similar to the meta description tag in HTML. This description is shown below the link title on Facebook. -->
-    <meta property="og:description"
-          content="virtual reality, augmented reality, mixed reality, data visualization, machine learning, vinh nguyen, vinh t. nguyen, idvl, interactive data visualization, texas tech university, ttu, cs, computer science, raider."/>
-
+    <meta
+      property="og:description"
+      content="virtual reality, augmented reality, mixed reality, data visualization, machine learning, vinh nguyen, vinh t. nguyen, idvl, interactive data visualization, texas tech university, ttu, cs, computer science, raider."
+    />
 
     <title>Vinh T. Nguyen</title>
 
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    />
     <!-- IonIcons -->
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link
+      rel="stylesheet"
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
     <!-- Theme style -->
-    <link rel="stylesheet" href="dist/css/adminlte.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
+    <link rel="stylesheet" href="dist/css/adminlte.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css"
+    />
     <!-- Google Font: Source Sans Pro -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700"
+      rel="stylesheet"
+    />
     <script async type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "Person",
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Lubbock",
-                "addressRegion": "TX",
-                "postalCode": "79409",
-                "streetAddress": "2500 Broadway"
-            },
-            "email": "vinh.nguyen@ttu.edu",
-            "image": "http://myweb.ttu.edu/vinhtngu/images/vinh_profile.jpg",
-            "jobTitle": "Research Assistant",
-            "description": "virtual reality, augmented reality, mixed reality, data visualization, machine learning, vinh nguyen, vinh t. nguyen, idvl, interactive data visualization, texas tech university, ttu, cs, computer science, raider.",
-            "name": "Vinh T. Nguyen",
-            "birthDate": "1985.04.12",
-            "gender": "male",
-            "nationality": "Vietnam",
-            "url": "http://myweb.ttu.edu/vinhtngu",
-            "sameAs": [
-                "http://vinhnguyen.net",
-                "https://www.mendeley.com/profiles/vinh-nguyen59/",
-                "http://publons.com/a/1493767/"
-            ]
-        }
-
-
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lubbock",
+          "addressRegion": "TX",
+          "postalCode": "79409",
+          "streetAddress": "2500 Broadway"
+        },
+        "email": "vinh.nguyen@ttu.edu",
+        "image": "http://myweb.ttu.edu/vinhtngu/images/vinh_profile.jpg",
+        "jobTitle": "Research Assistant",
+        "description": "virtual reality, augmented reality, mixed reality, data visualization, machine learning, vinh nguyen, vinh t. nguyen, idvl, interactive data visualization, texas tech university, ttu, cs, computer science, raider.",
+        "name": "Vinh T. Nguyen",
+        "birthDate": "1985.04.12",
+        "gender": "male",
+        "nationality": "Vietnam",
+        "url": "http://myweb.ttu.edu/vinhtngu",
+        "sameAs": [
+          "http://vinhnguyen.net",
+          "https://www.mendeley.com/profiles/vinh-nguyen59/",
+          "http://publons.com/a/1493767/"
+        ]
+      }
     </script>
-    <link rel="shortcut icon" href="dist/images/favicon.png">
-</head>
-<!--
+    <link rel="shortcut icon" href="dist/images/favicon.png" />
+  </head>
+  <!--
 BODY TAG OPTIONS:
 =================
 Apply one or more of the following classes to to the body tag
@@ -95,355 +123,578 @@ to get the desired effect
 |               | sidebar-mini                            |
 |---------------------------------------------------------|
 -->
-<body class="hold-transition sidebar-mini sidebar-collapse layout-boxed">
-<div class="wrapper">
-    <!-- Navbar -->
-    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+  <body class="hold-transition sidebar-mini sidebar-collapse layout-boxed">
+    <div class="wrapper">
+      <!-- Navbar -->
+      <nav class="main-header navbar navbar-expand navbar-white navbar-light">
         <!-- Left navbar links -->
         <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#"
+              ><i class="fas fa-bars"></i
+            ></a>
+          </li>
         </ul>
         <!-- Right navbar links -->
         <ul class="navbar-nav ml-auto">
-            <!-- Messages Dropdown Menu -->
-            <li class="nav-item" data-toggle="tooltip" title="Google Scholar">
-                <a class="nav-link" target="_blank" href="https://scholar.google.com/citations?hl=en&user=6rZWCbcAAAAJ">
-                    <i class="ai ai-google-scholar"></i>
-                </a>
-            </li>
-            <li class="nav-item" data-toggle="tooltip" title="Research Gate">
-                <a class="nav-link" target="_blank" href="https://www.researchgate.net/profile/Vinh_Nguyen144">
-                    <i class="ai ai-researchgate"></i>
-                </a>
-            </li>
-            <li class="nav-item" data-toggle="tooltip" title="Mendeley">
-                <a class="nav-link" target="_blank" href="https://www.mendeley.com/profiles/vinh-t-nguyen/">
-                    <i class="fab fa-mendeley"></i>
-                </a>
-            </li>
+          <!-- Messages Dropdown Menu -->
+          <li class="nav-item" data-toggle="tooltip" title="Google Scholar">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://scholar.google.com/citations?hl=en&user=6rZWCbcAAAAJ"
+            >
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+          <li class="nav-item" data-toggle="tooltip" title="Research Gate">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://www.researchgate.net/profile/Vinh_Nguyen144"
+            >
+              <i class="ai ai-researchgate"></i>
+            </a>
+          </li>
+          <li class="nav-item" data-toggle="tooltip" title="Mendeley">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://www.mendeley.com/profiles/vinh-t-nguyen/"
+            >
+              <i class="fab fa-mendeley"></i>
+            </a>
+          </li>
 
-            <li class="nav-item" data-toggle="tooltip" title="Publons">
-                <a class="nav-link" target="_blank" href="https://publons.com/a/1493767/">
-                    <i class="ai ai-publons"></i>
-                </a>
-            </li>
-            <li class="nav-item" data-toggle="tooltip" title="ORCID">
-                <a class="nav-link" target="_blank" href="https://orcid.org/0000-0002-1300-3943">
-                    <i class="ai ai-orcid-square"></i>
-                </a>
-            </li>
+          <li class="nav-item" data-toggle="tooltip" title="Publons">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://publons.com/a/1493767/"
+            >
+              <i class="ai ai-publons"></i>
+            </a>
+          </li>
+          <li class="nav-item" data-toggle="tooltip" title="ORCID">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://orcid.org/0000-0002-1300-3943"
+            >
+              <i class="ai ai-orcid-square"></i>
+            </a>
+          </li>
 
-            <li class="nav-item" data-toggle="tooltip" title="Github">
-                <a class="nav-link" target="_blank" href="https://github.com/Alex-Nguyen">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-            <li class="nav-item" data-toggle="tooltip" title="Github">
-                <a class="nav-link" target="_blank" href="https://twitter.com/VinhTTU">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
+          <li class="nav-item" data-toggle="tooltip" title="Github">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://github.com/Alex-Nguyen"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li class="nav-item" data-toggle="tooltip" title="Github">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://twitter.com/VinhTTU"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
         </ul>
-    </nav>
-    <!-- /.navbar -->
+      </nav>
+      <!-- /.navbar -->
 
-    <!-- Main Sidebar Container -->
-    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+      <!-- Main Sidebar Container -->
+      <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
         <a href="#" class="brand-link">
-            <img src="dist/img/user_256x256.jpg" alt="Vinh T. Nguyen" class="brand-image img-circle elevation-3"
-                 style="opacity: .8">
-            <span class="brand-text font-weight-light">Vinh T. Nguyen</span>
+          <img
+            src="dist/img/user_256x256.jpg"
+            alt="Vinh T. Nguyen"
+            class="brand-image img-circle elevation-3"
+            style="opacity: .8"
+          />
+          <span class="brand-text font-weight-light">Vinh T. Nguyen</span>
         </a>
 
         <!-- Sidebar -->
         <div class="sidebar">
-            <!-- Sidebar Menu -->
-            <nav class="mt-2">
-                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
-                    data-accordion="false">
-                    <!-- Add icons to the links using the .nav-icon class
+          <!-- Sidebar Menu -->
+          <nav class="mt-2">
+            <ul
+              class="nav nav-pills nav-sidebar flex-column"
+              data-widget="treeview"
+              role="menu"
+              data-accordion="false"
+            >
+              <!-- Add icons to the links using the .nav-icon class
                          with font-awesome or any other icon font library -->
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">
-                            <i class="nav-icon fas fa-home"></i>
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="http://www.wikicfp.com/cfp/call?conference=virtual%20reality" class="nav-link">
-                            <i class="nav-icon far fa-paper-plane"></i>
-                            Call for Papers
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="http://myweb.ttu.edu/vinhtngu/activities.html" class="nav-link">
-                            <i class="nav-icon far fa-laugh"></i>
-                            Activities
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="http://sem-gesca.com/webgesca/" class="nav-link">
-                            <i class="nav-icon fas fa-flask"></i>
-                            SEM-GESCA Lab
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="coursework.html" class="nav-link">
-                            <i class="nav-icon fas fa-book-open"></i>
-                            Course work
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://idatavisualizationlab.github.io/" class="nav-link">
-                            <i class="nav-icon fab fa-gitlab"></i>
-                            Data Visualization Lab
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://idatavisualizationlab.github.io/CS3366/" class="nav-link">
-                            <i class="nav-icon fab fa-gitlab"></i>
-                            HCI class
-                        </a>
-                    </li>
-
-                </ul>
-            </nav>
-            <!-- /.sidebar-menu -->
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">
+                  <i class="nav-icon fas fa-home"></i>
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="http://www.wikicfp.com/cfp/call?conference=virtual%20reality"
+                  class="nav-link"
+                >
+                  <i class="nav-icon far fa-paper-plane"></i>
+                  Call for Papers
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="http://myweb.ttu.edu/vinhtngu/activities.html"
+                  class="nav-link"
+                >
+                  <i class="nav-icon far fa-laugh"></i>
+                  Activities
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://sem-gesca.com/webgesca/" class="nav-link">
+                  <i class="nav-icon fas fa-flask"></i>
+                  SEM-GESCA Lab
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="coursework.html" class="nav-link">
+                  <i class="nav-icon fas fa-book-open"></i>
+                  Course work
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://idatavisualizationlab.github.io/"
+                  class="nav-link"
+                >
+                  <i class="nav-icon fab fa-gitlab"></i>
+                  Data Visualization Lab
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://idatavisualizationlab.github.io/CS3366/"
+                  class="nav-link"
+                >
+                  <i class="nav-icon fab fa-gitlab"></i>
+                  HCI class
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- /.sidebar-menu -->
         </div>
         <!-- /.sidebar -->
-    </aside>
+      </aside>
 
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <div class="content-header">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h1 class="m-0 text-dark">Home</h1>
-                    </div><!-- /.col -->
-                </div><!-- /.row -->
-            </div><!-- /.container-fluid -->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-6">
+                <h1 class="m-0 text-dark">Home</h1>
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container-fluid -->
         </div>
         <!-- /.content-header -->
 
         <!-- Main content -->
         <div class="content">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-9">
-                        <div class="card">
-                            <div class="card-header border-1">
-                                <div class="d-flex justify-content-between">
-                                    <h3 class="card-title" id="feature_pub">Feature Publications</h3>
-                                    <div class="card-tools">
-                                        <a href="#" id="pub_sort_asc" class="btn btn-tool btn-sm">
-                                            <i class="fas fa-sort-amount-up"></i>
-                                        </a>
-                                        <a href="#" id="pub_sort_desc" class="btn btn-tool btn-sm">
-                                            <i class="fas fa-sort-amount-down"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <div class="container-fluid" id="publications">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.card -->
-                        <div class="card">
-                            <div class="card-header border-1">
-                                <div class="d-flex justify-content-between">
-                                    <h3 class="card-title" id="other_pub">Other Publications</h3>
-                                    <div class="card-tools">
-                                        <a href="#" id="pub_sort_asc_o" class="btn btn-tool btn-sm">
-                                            <i class="fas fa-sort-amount-up"></i>
-                                        </a>
-                                        <a href="#" id="pub_sort_desc_o" class="btn btn-tool btn-sm">
-                                            <i class="fas fa-sort-amount-down"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <div class="container-fluid" id="opublications">
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- /.card -->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-9">
+                <div class="card">
+                  <div class="card-header border-1">
+                    <div class="d-flex justify-content-between">
+                      <h3 class="card-title" id="feature_pub">
+                        Feature Publications
+                      </h3>
+                      <div class="card-tools">
+                        <a
+                          href="#"
+                          id="pub_sort_asc"
+                          class="btn btn-tool btn-sm"
+                        >
+                          <i class="fas fa-sort-amount-up"></i>
+                        </a>
+                        <a
+                          href="#"
+                          id="pub_sort_desc"
+                          class="btn btn-tool btn-sm"
+                        >
+                          <i class="fas fa-sort-amount-down"></i>
+                        </a>
+                      </div>
                     </div>
-                    <!-- /.col-md-9 -->
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <div class="card-header border-0">
-                                <div class="d-flex justify-content-between">
-                                    <h3 class="card-title">Upcoming Events</h3>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <p>
-                                    2nd International Conference on Artificial Intelligence & Virtual Reality (AIVR 2019) - San Diego, California, USA, December 9-11, 2019. <a href="https://easychair.org/smart-program/IEEE-AIVR2019/" target="_blank">Program</a> &nbsp; <a href="slides/TTUS_WidescreenPPT_CivilWarExperience.pptx" target="_blank">Slide</a>
-                                </p>
-                                <p>
-                                    PADL 2020 : 22nd Symposium on Practical Aspects of Declarative Languages - Monday 20, January 2020 - New Orleans, Louisiana, United States. <a href="https://popl20.sigplan.org/details/PADL-2020-papers/7/VRASP-A-Virtual-Reality-Environment-for-Learning-Answer-Set-Programming" target="_blank">Program</a> &nbsp; <a href="#" target="_blank">Slide</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header border-0">
-                                <div class="d-flex justify-content-between">
-                                    <h3 class="card-title">Invited Talk</h3>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <p>
-                                    Seminar talks at HPCC High Performance Computing Center (TTU) - Thursday, October
-                                    11, 2018
-                                </p>
-                                <p>
-                                    Monthly <a class="text-danger"
-                                               href="https://sites.google.com/view/virtual-lab-schedule/2016-2017-friday-webinars-3pm">LIT</a>
-                                    Zoom Meeting (Innovations with Technology ) - Friday, November 16,
-                                    2018 2:00 PM - 3:00 PM Slide
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header border-0">
-                                <div class="d-flex justify-content-between">
-                                    <h3 class="card-title">IPC Member</h3>
-                                </div>
-                            </div>
-                            <div class="card-body" id="ipc_member">
-                                <p>
-                                    <a href="https://convention2.allacademic.com/one/aect/aect20/index.php?click_key=14&cmd=Home+Page&grp_id=8813&PHPSESSID=necubuh5460k9r1l3p3v7ees86"
-                                       target="_blank" title="Association for educational communication & technology">AECT
-                                        2020 </a> <span class="float-right">Florida, USA</span></p>
-                                <p><a href="http://vinci-conf.org/2020/" target="_blank">VINCI 2020 </a> <span
-                                        class="float-right">Netherlands</span></p>
-                                <p><a href="http://vinci-conf.org/2019/" target="_blank">VINCI 2019 </a> <span
-                                        class="float-right">Shanghai, China</span></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header border-0">
-                                <div class="d-flex justify-content-between">
-                                    <h3 class="card-title">Reviewer for</h3>
-                                </div>
-                            </div>
-                            <div class="card-body" id="reviewer">
-
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <h5>Activities</h5>
-                            </div>
-                            <div class="card-body">
-                                <div id="activities" class="carousel slide" data-ride="carousel">
-                                    <ul class="carousel-indicators">
-                                        <li data-target="#activities" data-slide-to="0" class="active"></li>
-                                        <li data-target="#activities" data-slide-to="1"></li>
-                                        <li data-target="#activities" data-slide-to="2"></li>
-                                        <li data-target="#activities" data-slide-to="3"></li>
-                                        <li data-target="#activities" data-slide-to="4"></li>
-                                    </ul>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="img/activities/Volunteer.jpg" width="250px" alt="Student Volunteer">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/activities/ComputerScience.png" width="250px" alt="Computer Science">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/activities/spark.jpg" width="250px" alt="Spark Activity">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/activities/inasp_vinh2013.jpg" width="250px" alt="INSAP">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/activities/inasp_vinh2016.jpg" width="250px" alt="INSAP">
-                                        </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#activities" data-slide="prev">
-                                        <span class="carousel-control-prev-icon"></span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#activities" data-slide="next">
-                                        <span class="carousel-control-next-icon"></span>
-                                    </a>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header border-0">
-                                <div class="d-flex justify-content-between">
-                                    <h3 class="card-title">Course work</h3>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <p>
-                                   Fall 2019: Reinforcement Learning <a href="dist/data/RL5392.pdf" target="_blank">Summary</a> &nbsp;
-                                </p>
-                                
-                                
-                            </div>
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-md-3 -->
+                  </div>
+                  <div class="card-body">
+                    <div class="container-fluid" id="publications"></div>
+                  </div>
                 </div>
-                <!-- /.row -->
+                <!-- /.card -->
+                <div class="card">
+                  <div class="card-header border-1">
+                    <div class="d-flex justify-content-between">
+                      <h3 class="card-title" id="other_pub">
+                        Other Publications
+                      </h3>
+                      <div class="card-tools">
+                        <a
+                          href="#"
+                          id="pub_sort_asc_o"
+                          class="btn btn-tool btn-sm"
+                        >
+                          <i class="fas fa-sort-amount-up"></i>
+                        </a>
+                        <a
+                          href="#"
+                          id="pub_sort_desc_o"
+                          class="btn btn-tool btn-sm"
+                        >
+                          <i class="fas fa-sort-amount-down"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="container-fluid" id="opublications"></div>
+                  </div>
+                </div>
+
+                <!-- /.card -->
+              </div>
+              <!-- /.col-md-9 -->
+              <div class="col-lg-3">
+                <div class="card">
+                  <div class="card-header border-0">
+                    <div class="d-flex justify-content-between">
+                      <h3 class="card-title">Upcoming Events</h3>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p>
+                      2nd International Conference on Artificial Intelligence &
+                      Virtual Reality (AIVR 2019) - San Diego, California, USA,
+                      December 9-11, 2019.
+                      <a
+                        href="https://easychair.org/smart-program/IEEE-AIVR2019/"
+                        target="_blank"
+                        >Program</a
+                      >
+                      &nbsp;
+                      <a
+                        href="slides/TTUS_WidescreenPPT_CivilWarExperience.pptx"
+                        target="_blank"
+                        >Slide</a
+                      >
+                    </p>
+                    <p>
+                      PADL 2020 : 22nd Symposium on Practical Aspects of
+                      Declarative Languages - Monday 20, January 2020 - New
+                      Orleans, Louisiana, United States.
+                      <a
+                        href="https://popl20.sigplan.org/details/PADL-2020-papers/7/VRASP-A-Virtual-Reality-Environment-for-Learning-Answer-Set-Programming"
+                        target="_blank"
+                        >Program</a
+                      >
+                      &nbsp; <a href="#" target="_blank">Slide</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header border-0">
+                    <div class="d-flex justify-content-between">
+                      <h3 class="card-title">Invited Talk</h3>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p>
+                      Seminar talks at HPCC High Performance Computing Center
+                      (TTU) - Thursday, October 11, 2018
+                    </p>
+                    <p>
+                      Monthly
+                      <a
+                        class="text-danger"
+                        href="https://sites.google.com/view/virtual-lab-schedule/2016-2017-friday-webinars-3pm"
+                        >LIT</a
+                      >
+                      Zoom Meeting (Innovations with Technology ) - Friday,
+                      November 16, 2018 2:00 PM - 3:00 PM Slide
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header border-0">
+                    <div class="d-flex justify-content-between">
+                      <h3 class="card-title">IPC Member</h3>
+                    </div>
+                  </div>
+                  <div class="card-body" id="ipc_member">
+                    <p>
+                      <a
+                        href="https://convention2.allacademic.com/one/aect/aect20/index.php?click_key=14&cmd=Home+Page&grp_id=8813&PHPSESSID=necubuh5460k9r1l3p3v7ees86"
+                        target="_blank"
+                        title="Association for educational communication & technology"
+                        >AECT 2020
+                      </a>
+                      <span class="float-right">Florida, USA</span>
+                    </p>
+                    <p>
+                      <a href="http://vinci-conf.org/2020/" target="_blank"
+                        >VINCI 2020
+                      </a>
+                      <span class="float-right">Netherlands</span>
+                    </p>
+                    <p>
+                      <a href="http://vinci-conf.org/2019/" target="_blank"
+                        >VINCI 2019
+                      </a>
+                      <span class="float-right">Shanghai, China</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header border-0">
+                    <div class="d-flex justify-content-between">
+                      <h3 class="card-title">Reviewer for</h3>
+                    </div>
+                  </div>
+                  <div class="card-body" id="reviewer"></div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <h5>Activities</h5>
+                  </div>
+                  <div class="card-body">
+                    <div
+                      id="activities"
+                      class="carousel slide"
+                      data-ride="carousel"
+                    >
+                      <ul class="carousel-indicators">
+                        <li
+                          data-target="#activities"
+                          data-slide-to="0"
+                          class="active"
+                        ></li>
+                        <li data-target="#activities" data-slide-to="1"></li>
+                        <li data-target="#activities" data-slide-to="2"></li>
+                        <li data-target="#activities" data-slide-to="3"></li>
+                        <li data-target="#activities" data-slide-to="4"></li>
+                      </ul>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img
+                            src="img/activities/Volunteer.jpg"
+                            width="250px"
+                            alt="Student Volunteer"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="img/activities/ComputerScience.png"
+                            width="250px"
+                            alt="Computer Science"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="img/activities/spark.jpg"
+                            width="250px"
+                            alt="Spark Activity"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="img/activities/inasp_vinh2013.jpg"
+                            width="250px"
+                            alt="INSAP"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="img/activities/inasp_vinh2016.jpg"
+                            width="250px"
+                            alt="INSAP"
+                          />
+                        </div>
+                      </div>
+                      <a
+                        class="carousel-control-prev"
+                        href="#activities"
+                        data-slide="prev"
+                      >
+                        <span class="carousel-control-prev-icon"></span>
+                      </a>
+                      <a
+                        class="carousel-control-next"
+                        href="#activities"
+                        data-slide="next"
+                      >
+                        <span class="carousel-control-next-icon"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.card certificates on research ethics-->
+
+                <div class="card">
+                  <div class="card-header border-0">
+                    <div class="d-flex justify-content-between">
+                      <h3 class="card-title">Research ethic certificates</h3>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        Responsible Scholarship for Engineers
+                        <a class="text-secondary" href="certificates/c1.pdf"
+                          ><i class="far fa-file-pdf"></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        Humanities Responsibility
+                        <a class="text-secondary" href="certificates/c2.pdf"
+                          ><i class="far fa-file-pdf"></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        Human Subjects TTU Social and Behavioral Investigators
+                        <a class="text-secondary" href="certificates/c3.pdf"
+                          ><i class="far fa-file-pdf"></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        Plagiarism training
+                        <a class="text-secondary" href="certificates/c4.pdf"
+                          ><i class="far fa-file-pdf"></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        Biological Science
+                        <a class="text-secondary" href="certificates/c5.pdf"
+                          ><i class="far fa-file-pdf"></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        Social and Behavioral
+                        <a class="text-secondary" href="certificates/c7.pdf"
+                          ><i class="far fa-file-pdf"></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        Laser Safety
+                        <a class="text-secondary" href="certificates/laser.pdf"
+                          ><i class="far fa-file-pdf"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header border-0">
+                    <div class="d-flex justify-content-between">
+                      <h3 class="card-title">Other certificates</h3>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        SAS Data Mining 2012
+                        <a class="text-secondary" href="certificates/SAS.pdf"
+                          ><i class="far fa-file-pdf"></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        International Network for the Availability of Scientific
+                        Publications (INASP)
+                        <a class="text-secondary" href="certificates/INASP.JPG"
+                          ><i class="far fa-image"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- /.card -->
+              </div>
+              <!-- /.col-md-3 -->
             </div>
-            <!-- /.container-fluid -->
+            <!-- /.row -->
+          </div>
+          <!-- /.container-fluid -->
         </div>
         <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
+      </div>
+      <!-- /.content-wrapper -->
 
-    <!-- Control Sidebar -->
-    <aside class="control-sidebar control-sidebar-dark">
+      <!-- Control Sidebar -->
+      <aside class="control-sidebar control-sidebar-dark">
         <!-- Control sidebar content goes here -->
-    </aside>
-    <!-- /.control-sidebar -->
+      </aside>
+      <!-- /.control-sidebar -->
 
-    <!-- Main Footer -->
-    <footer class="main-footer">
+      <!-- Main Footer -->
+      <footer class="main-footer">
         <strong>Copyright &copy; 2019</strong>
         All rights reserved.
-    </footer>
-</div>
-<!-- ./wrapper -->
+      </footer>
+    </div>
+    <!-- ./wrapper -->
 
-<!-- REQUIRED SCRIPTS -->
+    <!-- REQUIRED SCRIPTS -->
 
-<!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<!-- AdminLTE -->
-<script src="dist/js/adminlte.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.js"></script>
-<script src="dist/js/data.js"></script>
-<script src="dist/js/dashboard.js"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113374421-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <!-- AdminLTE -->
+    <script src="dist/js/adminlte.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.js"></script>
+    <script src="dist/js/data.js"></script>
+    <script src="dist/js/dashboard.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-113374421-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
+      function gtag() {
         dataLayer.push(arguments);
-    }
+      }
 
-    gtag('js', new Date());
-    gtag('config', 'UA-113374421-1');
-</script>
-</body>
+      gtag("js", new Date());
+      gtag("config", "UA-113374421-1");
+    </script>
+  </body>
 </html>
