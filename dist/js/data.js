@@ -662,6 +662,22 @@ data = {
     ,
     "reviewer": [
         {
+            "conf_year_reviewed": 2020,
+            "conf_short": "JOVI",
+            "conf_long": "Journal of Visualization",
+            "conf_date": "No",
+            "conf_venue": "Journal",
+            "conf_papers": 1
+        },
+        {
+            "conf_year_reviewed": 2020,
+            "conf_short": "ISMAR",
+            "conf_long": "The 18th IEEE International Symposium on Mixed and Augmented Reality",
+            "conf_date": "Nov 9-13",
+            "conf_venue": "Brazil",
+            "conf_papers": 1
+        },
+        {
             "conf_year_reviewed": 2019,
             "conf_short": "JISE",
             "conf_long": "Journal of Information Science and Engineering",
