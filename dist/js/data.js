@@ -19,7 +19,7 @@ data = {
                     }
                 ],
                 "pub_proceeding": "ISPRS International Journal of Geo-Information",
-                "pub_venue": "MDPI"
+                "pub_venue": "ISPRS Int. J. Geo-Inf. 2020, 9(2), 75; https://doi.org/10.3390/ijgi9020075"
             },
             {
                 "pub_type": "Conference",
