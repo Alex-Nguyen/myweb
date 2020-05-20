@@ -1,0 +1,99 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Template for a SPARC file
+%% Author: Vinh Nguyen (vinh.nguyen@ttu.edu)
+%% Description: Homework1, Question 6. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+sorts 
+	#wires ={w0,w1,w2,w3,w4,w5}.
+	#gates = {g0,g1,g2}.
+	#signal = {0, 1}.
+	#type ={a,o,n}.
+
+predicates
+    % input_wire(G,W) denotes that W is an input wire of G
+	input_wire(#gates, #wires).
+	
+	% output_wire(G,W) denotes that W is an output wire of G
+	output_wire(#gates, #wires).
+	
+	%val(W,V) denotes that the signal one wire W is V
+	val(#wires, #signal).
+	
+	% type(G,T) denotes that gate G is type T
+	type(#gates, #type).
+	
+	% opposite(X,Y) denotes that the value of Y is opposite to the value of X
+	opposite(#signal, #signal).
+	
+	% allInputWis1 (G) denotes that all input values of gate G is 1
+    allInputWis1(#gates).
+    
+    % someInputWis0(G) denotes that some values of gate G is 0
+    someInputWis0(#gates).
+    
+    % someInputWis1(G) denotes that some values of gate G is 1
+    someInputWis1(#gates).
+rules
+    % set the signal on wire w0 to 1
+    val(w0,1).
+    
+    % set the signal on wire w2 to 1
+    val(w2,1).
+    
+    % set the signal on wire w3 to 1
+    val(w3,1).
+    % set the wire w0 to be the input of gate g0
+	input_wire(g0,w0).
+    
+     % set the wire w1 to be the input of gate g1
+	input_wire(g1,w1).
+	 % set the wire w2 to be the input of gate g1
+	input_wire(g1,w2).
+	 % set the wire w3 to be the input of gate g1
+	input_wire(g1,w3).
+    % set the wire w4 to be the input of gate g2
+	input_wire(g2,w4).
+	 % set the wire w3 to be the input of gate g2
+	input_wire(g2,w3).
+     % set the wire w1 to be the output of gate g0
+	output_wire(g0,w1).
+	 % set the wire w4 to be the output of gate g1
+	output_wire(g1,w4).
+	 % set the wire w5 to be the output of gate g2
+	output_wire(g2,w5).
+
+     % set the type of gate g0 to NOT
+	type(g0,n).
+	% set the type of gate g1 to AND
+	type(g1,a).
+	% set the type of gate g2 to OR
+	type(g2,o).
+
+    % Define opposite value of 0 is 1
+	opposite(0,1).
+	% Define opposite value of 1 is 0
+	opposite(1,0).
+
+    %Define gate type NOT. The signal on the output wire of a not gate is the opposite of the signal on the input wire of the gate. 
+	val(W,V):- type(G, n), output_wire(G, W), input_wire(G,Wi), val(Wi, Vi), opposite(V, Vi).
+	
+	 %Define gate type AND. for all wire W, the signal of wire W is 0 IF there exists gate G type AND, the output of gate G is W, the input of gate G is W1 and the value of W1 is 0
+	val(W,0):- type(G, a), output_wire(G,W), input_wire(G, W1), val(W1,0).
+	
+	%Define gate type AND. for all wire W, the signal of wire W is 1 IF there exists gate G type AND, the output of gate G is W, and all input wires are 1
+	val(W,1):- type(G, a), output_wire(G,W), allInputWis1(G).
+    
+    % for all gate G, some inputs of gate G is 0 IF there exists wire W such that W is the input wire of G, and the value of W is 0 
+    someInputWis0(G):- val(W,0), input_wire(G,W).
+    
+    % for all gate G, some inputs of gate G is 1 IF there exists wire W such that W is the input wire of G, and the value of W is 1 
+    someInputWis1(G):- val(W,1), input_wire(G,W).
+    
+    % for all gate G, all inputs of gate G is 1 IF none of its input wires is 0
+    allInputWis1(G):- not someInputWis0(G).
+    
+    %Define gate type OR. the value of wire W is 1 IF there exists a gate G type O, W is the output wire of G and one of its input gate signal is 1. 
+    val(W,1):- type(G, o), output_wire(G,W), someInputWis1(G).     
+
+    
+    
